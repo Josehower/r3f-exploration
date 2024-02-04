@@ -20,7 +20,7 @@ var myOffset = new Float32Array([
 // let texIdx = Float32Array.from('01011');
 
 function Instances({ count = 5, temp = new THREE.Object3D() }) {
-  const texture = useTexture('vampire_v2_full-spaced.png');
+  const texture = useTexture('/vampire_v2_full-spaced.png');
   texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
   texture.magFilter = THREE.NearestFilter;
   texture.minFilter = THREE.NearestFilter;

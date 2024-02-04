@@ -1,0 +1,4 @@
+{
+  "extends": ["wesbos/typescript"],
+  "react/no-unknown-property": ["off", { "ignore": ["JSX"] }]
+}
